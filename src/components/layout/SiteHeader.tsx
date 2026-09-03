@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { NavLinks } from "@/components/layout/NavLinks";
 import { site } from "@/lib/content";
 
 export function SiteHeader() {
   return (
     <header className="relative z-10 border-b border-hairline">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-8">
         <Link
           href="/"
           className="flex items-baseline gap-3 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
@@ -16,16 +17,11 @@ export function SiteHeader() {
             {site.name}
           </span>
         </Link>
-        <div className="flex items-center gap-6">
-          <span className="hidden font-mono text-[10px] tracking-[0.18em] text-muted uppercase sm:inline">
+        <div className="flex items-center justify-between gap-6 sm:justify-end">
+          <span className="hidden font-mono text-[10px] tracking-[0.18em] text-muted uppercase lg:inline">
             {site.location}
           </span>
-          <Link
-            href="/"
-            className="font-mono text-[11px] tracking-[0.18em] text-foreground uppercase underline decoration-accent decoration-1 underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-          >
-            Home
-          </Link>
+          <NavLinks />
         </div>
       </div>
     </header>
