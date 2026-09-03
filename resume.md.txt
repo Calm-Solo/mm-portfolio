@@ -1,0 +1,56 @@
+Michael McBride
+🌐 GitHub: Calm-Solo| 📍 Elk Grove, CA | 📞 (916) 600-4581|📧 mdrservices916@gmail.com
+🔗 www.mcbridetechservices.com
+Summary
+Vision driven IT professional with 10+ years of experience supporting enterprise systems, troubleshooting hardware and software issues, documenting technical workflows, and delivering high quality customer and stakeholder support. Skilled in system testing, data validation, network configuration, and cross team communication. Known for training, problem solving, and liaison for users at all levels. 
+Professional Experience
+Founder & Lead Developer – McBride Tech Services
+Sacramento, CA | 2024 – Present
+Freelance Web Development & IT Services for Small Businesses & Startups
+•	Provide IT support, troubleshooting, and system maintenance for small businesses, nonprofits, and churches. Resolving issues related to web applications, hosting, authentication, and user access.
+•	Install, configure, and maintain web based systems using Next.js, React, Tailwind, Azure, and Vercel, ensuring reliability, security, and performance.
+•	Document technical workflows, create onboarding guides, develop maintenance plans to help clients understand system functionality and reduce support requests.
+•	Train clients on new systems, features, and tools, improving user adoption and reducing operational friction.
+•	Analyze business needs and recommend technology solutions that reduce costs, improve efficiency, and replace outdated or expensive software.
+•	Manage data collection and reporting for nonprofits, including attendance, engagement metrics, and demographic insights.
+
+Solidigm Technology (Contract) – 3rd Party Tool Specialist
+CA | Jan 2020 – Oct 2024
+- Performed firmware regression testing on Gen3 & Gen4 Solid State Drives. Executed test sprints produced from CVE.  Found critical bugs before customers did on their systems. 
+- Supported major OEM clients like Dell, NetApp, and Intel in SSD firmware validation.
+- Trained and led international QA teams (Mexico) in functional validation workflows.
+- Conducted NVMe Express compliance testing using automation and protocol analyzers.
+Intel (Contract) – Firmware Validation Tech IV
+CA | Aug 2018 – Jan 2020
+- Executed compliance tests on Gen3 NVMe SSDs including Optane, 3DXP, and Dual Port models.
+- Debugged test failures, ran protocol traces, and identified root causes (HW/FW/config).
+- Used JIRA for bug tracking and detailed documentation of results.
+- Root cause analysis discovery, while serving as liaison for stakeholders, management, and developers. 
+Cisco (Teleplan) – Test Engineer, Demo Loan Services
+CA | Feb 2013 – Aug 2018
+- Managed Cisco Unified Computing System UCS, automated test line.
+- Wrote automated test scripts and test plans for fast paced production environments.
+- Built test infrastructures and networks using UCS-240 servers and SG switches, ISR routers, and COMM servers.
+- Maintained ISO 9001 quality compliance and presented test metrics to non-technical stakeholders.
+- Practiced version control using GitLab and GitHub.
+Key Projects
+- McBride Tech Learning Lab. (mcbride-tech-learning-lab.vercel.app) still in development phase. 
+- Robot Build. Converting an Elegoo Smart Robot Car V4. Into a home monitoring robot. (BRAIN – RaspBerry Pi4 Linux Models, VISION- ESP32CAM- ESP32 Vroom, NAV –IR Module, SOFTWARE- C++ Arduino IDE, RS02 Jazzy). 
+- BidSpark – AI powered Quote and receipt generator + AI Negotiation Assistance. (www.bidspark.org) 
+- Smart Pool Monitor: Measures pH/TDS, offers real-time diagnostics via TFT screen & mobile companion app.
+- Security Training services to customers
+- Data Analytics for non-profits (Attendance, Views, Age) for social media content
+Education
+University of Phoenix
+- B.S. in Information Technology – Software Engineering, 2016
+- A.A. in Business Management, 2008
+Northwestern Technical College
+- CompTIA Network+ Certification, 2002
+- Microsoft Founders Hub (Azure AI Foundry Training) Certificates
+- Currently Testing UI (Web/Mobile) for DREAMFACE AI (Found six errors in the first week) in exchange for unlimited API tokens. 
+Tech Stack
+Web Development: Next.js, Tailwind CSS, React, Vercel, Azure Static Web App development,
+Hardware & Microcontrollers: Arduino, ESP32, DFPlayer, OLED Displays, Hall Sensors
+Languages & Tools: JavaScript, Python, PHP (WordPress), Selenium, Git, NVMe Tools, JIRA
+AI & Automation: GitHub Copilot, OpenAI APIs, AI-assisted prototyping, generative design
+Testing & Validation: Firmware Regression, Protocol Analyzers (Teledyne), Manual & Automated QA.

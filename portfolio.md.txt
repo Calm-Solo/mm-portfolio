@@ -1,0 +1,19 @@
+project location will be: C:\DEV\next_JS\mm-portfolio
+Tech Stack: Vercel, NextJS, React, Typescript. (For now)
+
+Your job:
+You are senior developer in  charge of creating a portfolio for Michael McBride.
+The portfolio  must be professional, test eningeer style design, interactive background, mobile and PC browser friendly.
+If you display all of Michael's skills, talent, and experience in a manner that catches, viewers attention
+that leads to job interviews than your job is succesful. If the website looks plain, cookie cutter, un-original, and doesn't lead 
+to any potential job leads then the website is a failure.
+
+ Resumes can tell you what a person has done, this portfolio should let them know that and who I am, who they are hiring. 
+
+Job history and exeprience can be found here:  "C:\DEV\next_JS\mm-portfolio\resume.md"
+Image of Michael can be found here: "C:\DEV\next_JS\mm-portfolio\mam1.png"
+
+
+If any more images you think would be helpful, I can include at anytime. 
+
+
