@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { liveProjects } from "@/lib/content";
+import { fieldProjects, liveProjects } from "@/lib/content";
+
+const teasers = [...liveProjects, ...fieldProjects].map((project) => ({
+  id: project.id,
+  index: project.index,
+  name: project.name,
+  hook: project.homeHook,
+}));
 
 export function SelectedWork() {
   return (
@@ -15,29 +22,30 @@ export function SelectedWork() {
           All work
         </Link>
       </div>
-      <ul className="grid gap-px border border-hairline bg-hairline sm:grid-cols-2">
-        {liveProjects.map((project) => (
-          <li key={project.id} className="flex flex-col bg-panel p-6">
-            <p className="font-mono text-[10px] tracking-[0.2em] text-accent">
-              {project.index}
-            </p>
-            <h3 className="mt-3 text-sm font-medium tracking-tight">
-              {project.name}
-            </h3>
-            <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">
-              {project.summary}
-            </p>
-            <a
-              href={project.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center justify-center border border-hairline px-4 py-2.5 text-center text-sm font-medium tracking-wide text-foreground transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      <ul className="border border-hairline">
+        {teasers.map((project) => (
+          <li key={project.id} className="border-b border-hairline last:border-b-0">
+            <Link
+              href="/projects"
+              className="grid gap-1 bg-panel px-5 py-4 transition-colors hover:bg-background focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-accent sm:grid-cols-[2.5rem_minmax(0,0.42fr)_minmax(0,0.58fr)] sm:items-baseline sm:gap-6"
             >
-              {project.cta}
-            </a>
+              <span className="font-mono text-[10px] tracking-[0.2em] text-accent">
+                {project.index}
+              </span>
+              <span className="text-sm font-medium tracking-tight">{project.name}</span>
+              <span className="text-sm text-muted sm:text-right">{project.hook}</span>
+            </Link>
           </li>
         ))}
       </ul>
+      <div className="mt-6">
+        <Link
+          href="/projects"
+          className="inline-flex items-center justify-center bg-accent px-5 py-3 text-sm font-medium tracking-wide text-background transition-colors hover:bg-accent-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        >
+          See all work
+        </Link>
+      </div>
     </section>
   );
 }

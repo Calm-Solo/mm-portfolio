@@ -66,6 +66,7 @@ export const liveProjects = [
     status: "In development",
     summary:
       "Spelling Bee Challenge featuring mascot Bumble — a learning product still in active development.",
+    homeHook: "Spelling Bee challenge featuring Bumble",
     href: "https://mcbride-tech-learning-lab.vercel.app/",
     cta: "McBride Tech Learning Lab",
     stack: ["Next.js", "React", "Vercel"],
@@ -77,6 +78,7 @@ export const liveProjects = [
     status: "Live",
     summary:
       "Quote and receipt generator for DIY, entrepreneurs, and small-business owners, with AI-assisted quoting and negotiation.",
+    homeHook: "Quotes and receipts for DIY and small operators",
     href: "https://www.bidspark.org",
     cta: "BidSpark",
     stack: ["Next.js", "TypeScript", "React"],
@@ -88,6 +90,7 @@ export const liveProjects = [
     status: "Live",
     summary:
       "Web presence for a local church — hosting, access, and a site the congregation can actually use.",
+    homeHook: "A church site the congregation can use",
     href: "https://www.fbcnh.church",
     cta: "First Baptist Church of North Highlands",
     stack: ["Next.js", "Vercel"],
@@ -99,6 +102,7 @@ export const liveProjects = [
     status: "Live",
     summary:
       "Measures pH and TDS, then surfaces real-time diagnostics on a TFT screen, a companion app, and a live water-quality dashboard.",
+    homeHook: "Live pH/TDS dashboard",
     href: "https://water-quality-dashboard-one.vercel.app/",
     cta: "Smart Pool Monitor",
     stack: ["ESP32", "Python", "Vercel"],
@@ -112,6 +116,7 @@ export const fieldProjects = [
     name: "BotNique",
     summary:
       "Mega 2560 powered chatbot named BotNique that I will be converting into home monitoring platform. Elegoo Smart Robot Car for the body, Pi for the brain, ESP32-CAM for vision, IR for nav. Play the video to see a short message from BotNique!",
+    homeHook: "Mega 2560 chatbot — video on Work",
     stack: ["Mega 2560", "Raspberry Pi", "ESP32", "C++", "ROS 2"],
     video: {
       youtubeId: "UKStf7ncGSw",
